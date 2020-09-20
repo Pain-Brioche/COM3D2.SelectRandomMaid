@@ -22,6 +22,6 @@ A simple plugin to randomly select maids in Yotogi, Dance or Karaoke lists.
 Others Keys are valid but have not been tested.
 
 ### Known issues
-
-- Button doesn't appear in VR: That's expected nothing I can do about it for now, use the VR controller shortcut.
+- *Random* button appears to soon: still need to work on that.
+- *Random* Button doesn't appear in VR: That's expected nothing I can do about it for now, use the VR controller shortcut.
 - That one dance with four maids, you'll have to manually select the fourth.
