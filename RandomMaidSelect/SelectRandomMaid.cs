@@ -7,7 +7,7 @@ using HarmonyLib;
 
 namespace COM3D2.SelectRandomMaid.Plugin
 {
-    [BepInPlugin("org.bepinex.plugins.COM3D2.SelectRandomMaid.Plugin", "Select Random Maid", "0.0.0.1")]
+    [BepInPlugin("org.bepinex.plugins.COM3D2.SelectRandomMaid.Plugin", "Select Random Maid", "1.0.0.0")]
     public class RandomMaidSelect : BaseUnityPlugin
     {
         private void Awake()
