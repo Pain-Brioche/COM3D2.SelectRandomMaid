@@ -138,12 +138,26 @@ namespace COM3D2.SelectRandomMaid.Plugin
 
         private void OnGUI()
         {
-            if (CurrentLevel == 1 || CurrentLevel == 21 || CurrentLevel == 36)
+            if (CurrentLevel == 1 || CurrentLevel == 21)
             {
                     if (GUI.Button(new Rect(Screen.width / 2 + 60, Screen.height - 128, 128, 128), randomButton))
                     {
                         SelectRandomMaid();
                     }
+            }
+            if (CurrentLevel == 36)
+            {
+                GameObject maidSkillUnitKaraoke = GameObject.Find("UI Root/Parent/CharacterSelectPanel/Contents/MaidSkillUnitParent");
+                if (maidSkillUnitKaraoke != null)
+                {
+                    if (maidSkillUnitKaraoke.gameObject.activeInHierarchy)
+                    {
+                        if (GUI.Button(new Rect(Screen.width / 2 + 60, Screen.height - 128, 128, 128), randomButton))
+                        {
+                            SelectRandomMaid();
+                        }
+                    }
+                }
             }
         }
 
