@@ -10,7 +10,7 @@ A simple plugin to randomly select maids in Yotogi, Dance or Karaoke lists.
 ### Usage
 - Press the random button
 - Or use the keyboard or VR controller shortcut. (Default: R / Y or B for Oculus / Trackpad press for Vive
-- You can change the shortcuts in the config file (need to start the game at least onece toi create it)
+- You can change the shortcuts in the config file (need to start the game at least once to create it)
 
             VR Controllers
             Key description:
